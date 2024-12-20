@@ -1,0 +1,937 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Thrinadh - Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="shortcut icon" href="images/logo/favicon.png" type="image/x-icon">
+
+    <!-- Google fonts link here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp;family=Oswald:wght@300;400;500;700&amp;family=Roboto+Condensed:wght@300;400;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- All css here -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/all-animations.css">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+
+                
+    <!--  ====== preloader=============================================  -->
+    <div id="preloader">
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /preloader -->
+
+    <div class="body-wrapper over-hidden position-relative">
+        <div id="venta-background" class="h-100"></div>
+        <div class="container p-0">
+
+            <!--  ====== header-area-start
+            ===================================================  -->
+            <header class="header-padding">
+                <div class="row align-items-center">
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-5">
+                        <div id="logo">
+                            <a href="index.html"><img src="images/logo/logo.png" alt="ProCv" class="port-logo"></a>
+                        </div>
+                    </div><!-- /col -->
+
+                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm-6 col-7 text-right">
+                        <div class="my-btn d-inline-block">
+                            <a href="resume.pdf" class="btn theme-bg text-capitalize f-700 mb-0">Download Cv</a>
+                        </div><!-- /my-btn -->
+                    </div><!-- /col -->
+
+                </div><!-- /row -->
+            </header>
+
+            <div id="content">
+
+                <!-- profile 
+                ================================================== -->
+                <div id="profile" class="hero-area hero-area-height border-radius12 over-hidden bg-cover position-relative" data-background="images/hero/hero-bg.jpg">
+                    <div id="scene" class="parallax position-absolute w-100 h-100 z-index11">
+                        <img data-depth="0.20" class="hero-shape hero-shape1 position-absolute d-none d-md-inline-block" src="images/hero/shape1.png" alt="#"><!-- /hero-shape1 -->
+                        <img data-depth="0.15" class="hero-shape hero-shape2 position-absolute d-none d-md-inline-block" src="images/hero/shape2.png" alt="#"><!-- /hero-shape2 -->
+                        <img data-depth="0.30" class="hero-shape hero-shape3 position-absolute d-none d-md-inline-block" src="images/hero/shape3.png" alt="#"><!-- /hero-shape3 -->
+                        <div data-depth="0.30" class="hero-text-shape hero-text-shape2 position-absolute d-none d-md-inline-block">
+                            <span class="d-inline-block font-family-CircularStdBold text-uppercase">Thrinadh</span>
+                        </div><!-- /hero-text -->
+                    </div><!-- /parallax -->
+
+                    <div class="d-flex align-items-center justify-content-center w-100 h-100 z-index11 position-relative">
+                        <div class="row align-items-center justify-content-center w-100">
+
+                            <div class="col-12">
+                                <div class="hero-content text-center mt--10">
+
+                                    <div class="hero-img tilt position-relative d-inline-block mb-30">
+                                        <img class="rounded-circle" src="images/hero/hero-img.jpg" alt="hero img">
+                                        <span class="sub-title d-block text-white text-uppercase font-family-CircularStdBold mb-1 position-absolute">This is</span>
+                                    </div><!-- /hero-img -->
+
+                                    <h1 class="text-white font-family-CircularStdBold mb-25"><span class="theme-color">Thrinadh</span></h1>
+                                    <h3 class="text-white mb-45">Professional in <span
+                                        class="typer font-family-CircularStdBold"
+                                        id="some-id"
+                                        data-words="Web Developer.,Digital Marketing.,S.E.O Analyzer."
+                                        data-delay="50"
+                                        data-colors="#08c6e7">
+                                        </span><span class="cursor" data-cursorDisplay="|" data-owner="some-id"></span>
+                                    </h3>
+                                    <div class="circular-btn-wrapper d-inline-block position-relative cursor-pointer transition5">
+                                        <img class="circular-btn-text rotate-animation d-inline-block" src="images/hero/circular-btn.png" alt="about image 2">
+                                        <a href="#" class="circular-btn-icon position-absolute transition5">
+                                            <img class="d-icon d-print-inline-block transition5" src="images/hero/right-up.png" alt="about image 3">
+                                        </a>
+                                    </div><!-- /my-btn -->
+
+                                </div><!-- /hero-right -->
+                            </div><!-- /col -->
+
+                        </div><!-- /row -->
+                    </div>
+                    
+                </div><!-- /profile -->
+<
+
+                <!--  ====== menu-start
+                ===================================================  -->
+                <nav class="menu">
+                    <ul class="tabs d-flex align-items-center justify-content-center">
+                        <li class="tmenu">
+                            <a href="#profile" class="profile tabs-home">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="tmenu">
+                            <a href="#about" class="about">
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="tmenu">
+                            <a href="#resume" class="resume">
+                                <span>Resume</span>
+                            </a>
+                        </li>
+                        <li class="tmenu">
+                            <a href="#portfolio" class="portfolio">
+                                <span>portfolio</span>
+                            </a>
+                        </li>
+                        <li class="tmenu">
+                            <a href="#contact" class="contact">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav><!-- /menu -->
+
+                <!-- about-page 
+                ================================================== -->
+                <div id="about" class="page-margin-top">
+                    <div class="container p-0">
+
+                        <div class="content-wrapper-padding white-bg border-radius12 position-relative">
+
+                            <!-- about-area -->
+                            <div class="about-content-area section-border-bottom pb-65">
+
+                                <div class="row justify-content-between title-margin mb-45">
+                                    <div class="col-xl-6 col-lg-5  col-md-4 col-sm-12 col-12 d-flex align-items-center">
+                                        <div class="title">
+                                            <h2 class="position-relative pl-25">About Me</h2>
+                                        </div><!-- /title -->
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-7 col-md-8  col-sm-12 col-12 text-right">
+                                        <div class="title-content text-right">
+                                            <p class="text-left">Elevate your digital presence with custom software solutions: website development, digital marketing, and Android apps crafted for your success.</p>
+                                        </div><!-- /title-content -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                                <div class="row mt-lg-0">
+
+                                    <div class="col-xl-4  col-lg-5  col-md-6 col-sm- col-">
+                                        <div class="about-img" data-tilt data-tilt-max="10">
+                                            <img src="images/about/personal-img.jpg" alt="about image">
+                                        </div><!-- /about img -->
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-6  col-lg-6  col-md-6  col-sm- col- d-none d-md-block d-xl-none">
+                                        <div class="about-info pl-40">
+                                            <ul class="d-flex align-items-center mb-35">
+                                                <li class="pr-20">
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Name</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Email</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Phone</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Address</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Education</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Languages</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Nationality</span>
+                                                    <span
+                                                        class="font-family-CircularStdBold primary-color d-block mb-20">Freelance</span>
+                                                </li>
+                                                <li>
+                                                    <span class="d-block mb-20">S.N.V.Thrinadh</span>
+                                                    <span class="d-block mb-20">venkatathrinadh8@gmail.com</span>
+                                                    <span class="d-block mb-20">+91 8790221589</span>
+                                                    <span class="d-block mb-20">Dhanalakshmi centre, KPHB</span>
+                                                    <span class="d-block mb-20">B.Tech in Mechanical</span>
+                                                    <span class="d-block mb-20">English, Telugu</span>
+                                                    <span class="d-block mb-20">India</span>
+                                                    <span class="d-block mb-20">Available</span>
+                                                </li>
+                                            </ul>
+                                            <div class="my-btn d-inline-block">
+                                                <a href="#" class="btn theme-bg text-capitalize f-700">Contact
+                                                    Me</a>
+                                            </div><!-- /btn -->
+                                        </div><!-- /about info -->
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-8  col-lg-12  col-md-12  col-sm- col-">
+                                        <div class="row">
+                                            <div class="col-xl-6  col-lg-12  col-md-  col-sm- col- pr-lg-0">
+                                                <div class="about-content mt--5">
+                                                    <p class="mb-10">With over a year of professional experience as a UI/UX Developer, I have honed my skills in creating visually appealing and highly functional websites across various sectors. My journey in the field has involved working on a diverse range of projects, where I leveraged my expertise in HTML, CSS, and JavaScript to bring dynamic and engaging web experiences to life. </p>
+
+                                                    <p class="mb-10">Proficient in Bootstrap, I have been able to streamline the development process, ensuring responsive and intuitive designs that meet modern web standards. Currently, I serve as a Senior Developer at Creative Ethics Company, where I lead and collaborate on innovative design solutions, driving the creative vision and technical execution of our projects.</p>
+
+                                                    <p class="mb-0">My role encompasses not only technical development but also strategic input into user experience enhancements, making sure that every website I work on is both aesthetically pleasing and user-friendly.</p>
+                                                </div><!-- /about-content -->
+                                            </div><!-- /col -->
+
+                                            <div class="col-xl-6  col-lg-  col-md-  col-sm- col- d-md-none d-xl-block">
+                                                <div class="about-info pl-40">
+                                                    <ul class="d-flex align-items-center mb-35">
+                                                        <li class="pr-20">
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Name</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Email</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Phone</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Address</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Education</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Languages</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Nationality</span>
+                                                            <span
+                                                                class="font-family-CircularStdBold primary-color d-block mb-20">Freelance</span>
+                                                        </li>
+                                                        <li class="info-details">
+                                                            <span class="d-block mb-20">S.N.V.Thrinadh</span>
+                                                            <span class="d-block mb-20">venkatathrinadh8@gmail.com</span>
+                                                            <span class="d-block mb-20">+91 8790221589</span>
+                                                            <span class="d-block mb-20">Dhanalakshmi centre, KPHB</span>
+                                                            <span class="d-block mb-20">B.Tech in Mechanical</span>
+                                                            <span class="d-block mb-20">English, Telugu</span>
+                                                            <span class="d-block mb-20">India</span>
+                                                            <span class="d-block mb-20">Available</span>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="my-btn d-inline-block">
+                                                        <a href="tel:8790221589" class="btn theme-bg text-capitalize f-700"><i class="fas fa-phone-alt"></i>       8790221589</a>
+                                                    </div><!-- /btn -->
+                                                </div><!-- /about info -->
+                                            </div><!-- /col -->
+                                        </div><!-- /row -->
+                                    </div><!-- /container -->
+
+                                </div><!-- /row -->
+
+                            </div><!-- /about-area -->
+
+                            <!-- service-area -->
+                            <div class="service-content-area section-border-bottom mt-60 pb-25">
+
+                                <div class="row justify-content-between title-margin mb-45">
+                                    <div class="col-xl-6 col-lg-5  col-md-4 col-sm-12 col-12 d-flex align-items-center">
+                                        <div class="title">
+                                            <h2 class="position-relative pl-25">Service</h2>
+                                        </div><!-- /title -->
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-7 col-md-8  col-sm-12 col-12 text-right">
+                                        <div class="title-content text-right">
+                                            <p class="text-left">Elevate your digital presence with custom software solutions: website development, digital marketing, and Android apps crafted for your success..</p>
+                                        </div><!-- /title-content -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                                <div class="row mt-1 mt-md-0">
+                                    <div class="col-xl-4  col-lg-6 col-md-6  col-sm- col-">
+                                        <div class="single-service neutral-bg border-radius12 pl-50 pr-50 pt-60 pb-45 mb-45 mr-8">
+                                            <div class="service-ser-icon pl-15 position-relative mb-40">
+                                                <img class="position-relative z-index1" src="images/about/service-icon1.png" alt="icon">
+                                            </div><!-- /service-ser-icon -->
+                                            <div class="service-text">
+                                                <h4 class="mb-30">Digital Marketing</h4>
+                                                <p class="mb-0">Digital marketing amplifies your brand through PPC, social media, and content strategies, driving targeted traffic, boosting engagement, and fueling growth.</p>
+                                            </div><!-- /service-text -->
+                                        </div>
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-4  col-lg-6 col-md-6  col-sm- col-">
+                                        <div class="single-service neutral-bg border-radius12 pl-50 pr-50 pt-60 pb-45 mb-45 mr-8 ml-8">
+                                            <div class="service-ser-icon pl-15 position-relative mb-40">
+                                                <img class="position-relative z-index1" src="images/about/service-icon2.png" alt="icon">
+                                            </div><!-- /service-ser-icon -->
+                                            <div class="service-text">
+                                                <h4 class="mb-30">Web Development</h4>
+                                                <p class="mb-0">Web development creates custom, responsive websites with intuitive design and functionality, enhancing user experience and driving business growth.</p>
+                                            </div><!-- /service-text -->
+                                        </div>
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-4  col-lg-6 col-md-6  col-sm- col-">
+                                        <div class="single-service neutral-bg border-radius12 pl-50 pr-50 pt-60 pb-45 mb-45 ml-8">
+                                            <div class="service-ser-icon pl-15 position-relative mb-40">
+                                                <img class="position-relative z-index1" src="images/about/service-icon3.png" alt="icon">
+                                            </div><!-- /service-ser-icon -->
+                                            <div class="service-text">
+                                                <h4 class="mb-30">Android Development</h4>
+                                                <p class="mb-0">Android development delivers custom apps with sleek design, smooth functionality, and robust performance for engaging, seamless user experiences.</p>
+                                            </div><!-- /service-text -->
+                                        </div>
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-4  col-lg-6 col-md-6  col-sm- col-">
+                                        <div class="single-service neutral-bg border-radius12 pl-50 pr-50 pt-60 pb-45 mb-45 mr-8">
+                                            <div class="service-ser-icon pl-15 position-relative mb-40">
+                                                <img class="position-relative z-index1" src="images/about/service-icon4.png" alt="icon">
+                                            </div><!-- /service-ser-icon -->
+                                            <div class="service-text">
+                                                <h4 class="mb-30">S.E.O</h4>
+                                                <p class="mb-0">SEO optimizes your website to rank higher on search engines, increasing visibility, driving organic traffic, and enhancing user engagement.</p>
+                                            </div><!-- /service-text -->
+                                        </div>
+                                    </div><!-- /col -->
+                                </div>
+
+                            </div><!-- /service-area -->
+
+                           
+
+                           
+                                          
+                        </div><!-- /content-wrapper-padding -->
+
+                    </div><!-- /container -->
+                </div><!-- /about-page -->
+
+
+                <!-- resume-page 
+                ================================================== -->
+                <div id="resume" class="page-margin-top">
+                    <div class="container p-0">
+
+                        <div class="content-wrapper-padding white-bg content-wrapper-padding white-bg border-radius12 position-relative">
+
+                            <!-- experience-education-area -->
+                            <div class="experience-education-content-area section-border-bottom pb-65">
+
+                                <div class="row justify-content-between title-margin mb-45">
+                                    <div class="col-xl-6 col-lg-5  col-md-4 col-sm-12 col-12 d-flex align-items-center">
+                                        <div class="title">
+                                            <h2 class="position-relative pl-25">Resume</h2>
+                                        </div><!-- /title -->
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-7 col-md-8  col-sm-12 col-12 text-right">
+                                        <div class="title-content text-right">
+                                            <p class="text-left">Elevate your digital presence with custom software solutions: website development, digital marketing, and Android apps crafted for your success.</p>
+                                        </div><!-- /title-content -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                                <div class="row">
+                                    <div class="col-xl-6  col-lg-6  col-md-12 col-sm- col-">
+                                        <div class="experience-wrapper over-hidden pr-35">
+                                            <h3 class="mb-30">Work Experience</h3>
+                                            <ul>
+                                                <li class="single-experience position-relative pl-35 mb-25">
+                                                    <div class="d-flex justify-content-between align-items-start flex-column-reverse flex-md-row mb-20">
+                                                        <div class="experience-info">
+                                                            <h4 class="mb-12">Senior UI/UX Developer</h4> 
+                                                            <span class="mb-12"><span class="secondary-color pr-05 d-inline-block">Creative Ethics Private limited</span> (July, 2023 - Running)</span>   
+                                                        </div>
+                                                        <img src="images/resume/google.png" alt="google" class="d-inline-block">
+                                                    </div>
+                                                    <p>With over a year of professional experience as a UI/UX Developer, I have honed my skills in creating visually appealing and highly functional websites across various sectors. My journey in the field has involved working on a diverse range of projects, where I leveraged my expertise in HTML, CSS, and JavaScript to bring dynamic and engaging web experiences to life. </p>
+                                                </li>
+
+                                               
+                                            </ul>
+                                        </div><!-- /experience img -->
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-6 col-lg-6  col-md-12 col-sm- col-">
+                                        <div class="education-wrapper over-hidden pl-35">
+                                            <h3 class="mb-30">Education</h3>
+                                            <ul>
+                                                <li class="single-experience position-relative pl-35 mb-25">
+                                                    <div class="d-flex justify-content-between align-items-start flex-column-reverse flex-md-row mb-20">
+                                                        <div class="experience-info">
+                                                            <h4 class="mb-12">Bachelors in Mechanical Engineering</h4> 
+                                                            <span class="secondary-color mb-12"><span class="d-inline-block pr-05">Lenora College of Engineering</span> (Jun, 2019 - March, 2022)</span>   
+                                                        </div>
+                                                        <!-- <img src="images/resume/education-logo1.png" alt="education logo 1" class="d-inline-block"> -->
+                                                    </div>
+                                                    <p>I studied Mechanical Engineering at Lenora College of Engineering, gaining a strong foundation in problem-solving and technical skills.</p>
+                                                </li>
+
+                                                <li class="single-experience position-relative pl-35 mb-25">
+                                                    <div class="d-flex justify-content-between align-items-start flex-column-reverse flex-md-row mb-20">
+                                                        <div class="experience-info">
+                                                            <h4 class="mb-12">Diploma in Mechanical Engineering</h4> 
+                                                            <span class="mb-12"><span class="secondary-color pr-05 d-inline-block">Swarnandhra College of Engineering & Technology</span>  (Aug, 2015 - mar, 2018)</span>   
+                                                        </div>
+                                                        <!-- <img src="images/resume/education-logo2.png" alt="education logo2" class="d-inline-block"> -->
+                                                    </div>
+                                                    <p>
+                                                        I pursued Mechanical Engineering at Swanandhra College of Engineering, where I developed a solid foundation in technical skills and problem-solving.</p>
+                                                </li>
+
+                                            </ul>
+                                        </div><!-- /education img -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                            </div><!-- /experience-education-area -->
+
+
+                            <!-- skill-area -->
+                            <div class="skill-content-area section-border-bottom mt-65 pb-35">
+                                    
+                                <div class="row justify-content-between title-margin mb-45">
+                                    <div class="col-xl-6 col-lg-5  col-md-4 col-sm-12 col-12 d-flex align-items-center">
+                                        <div class="title">
+                                            <h2 class="position-relative pl-25">My Skills</h2>
+                                        </div><!-- /title -->
+                                    </div><!-- /col -->
+                                    <div class="col-xl-6  col-lg-7 col-md-8  col-sm-12 col-12 text-right">
+                                        <div class="title-content text-right">
+                                            <p class="text-left">Elevate your digital presence with custom software solutions: website development, digital marketing, and Android apps crafted for your success..</p>
+                                        </div><!-- /title-content -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                                <div class="row">
+                                    <div class="col-xl-6  col-lg-6  col-md-6 col-sm- col- skill-bar-left pr-xl-5">
+                                        <h3 class="mb-30">Tools</h3>
+                                        <div class="skill-bar-area over-hidden pb-70">
+                                            <div class="progess-wrapper">
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">ChatGPT</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 80%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Figma</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 90%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Semrush</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 80%;" aria-valuenow="63"
+                                                            aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Canva</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 90%;" aria-valuenow="85"
+                                                            aria-valuemin="0" aria-valuemax="100"><span>90%</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- skill-bar-area -->
+
+                                        <div class="skill-round-bar-area over-hidden">
+                                            <h3 class="mb-35">Language Skills</h3>
+                                            <div class="row justify-content-center mt-10">
+                                                <!-- /col -->
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-9 mb-20">
+                                                    <div class="single-skill mb-15 text-center">
+                                                        <div class="progress-circular over-hidden">   
+                                                            <div>
+                                                                <input type="text" class="knob" value="0" data-rel="95" data-linecap="" data-width="160" data-height="160" data-bgcolor="#e2e2e2" data-fgcolor="#08c6e7" data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                                            </div>
+                                                            <h4 class="mt-25 text-center">English</h4>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /col -->
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-9 mb-20">
+                                                    <div class="single-skill text-center text-lg-right">
+                                                        <div class="progress-circular over-hidden">   
+                                                            <div>
+                                                                <input type="text" class="knob" value="0" data-rel="100" data-linecap="" data-width="160" data-height="160" data-bgcolor="#e2e2e2" data-fgcolor="#08c6e7" data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                                            </div>
+                                                            <h4 class="mt-25 text-center">Telugu</h4>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                        </div><!-- /skill-round-bar-area -->
+                                    </div><!-- /col -->
+
+                                    <div class="col-xl-6  col-lg-6  col-md-6 col-sm- col- skill-bar-left pl-xl-5 d-flex flex-column-reverse flex-md-column">
+                                        <div class="skill-round-bar-area over-hidden mb-md-4">
+                                            <h3 class="mb-35">Work Skills</h3>
+                                            <div class="row justify-content-center mt-10">
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-9 mb-20">
+                                                    <div class="single-skill mb-15 text-center text-lg-left">
+                                                        <div class="progress-circular over-hidden">   
+                                                            <div>
+                                                                <input type="text" class="knob" value="0" data-rel="100" data-linecap="" data-width="160" data-height="160" data-bgcolor="#e2e2e2" data-fgcolor="#08c6e7" data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                                            </div>
+                                                            <h4 class="mt-25 text-center">Html,css,Javascript</h4>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /col -->
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-9 mb-20">
+                                                    <div class="single-skill mb-15 text-center">
+                                                        <div class="progress-circular over-hidden">   
+                                                            <div>
+                                                                <input type="text" class="knob" value="0" data-rel="90" data-linecap="" data-width="160" data-height="160" data-bgcolor="#e2e2e2" data-fgcolor="#08c6e7" data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                                            </div>
+                                                            <h4 class="mt-25 text-center">Android </h4>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /col -->
+                                                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-9 mb-20">
+                                                    <div class="single-skill text-center text-lg-right">
+                                                        <div class="progress-circular over-hidden">   
+                                                            <div>
+                                                                <input type="text" class="knob" value="0" data-rel="95" data-linecap="" data-width="160" data-height="160" data-bgcolor="#e2e2e2" data-fgcolor="#08c6e7" data-thickness=".06" data-readonly="true" disabled="" readonly="readonly">
+                                                            </div>
+                                                            <h4 class="mt-25 text-center">Digital Marketing</h4>
+                                                        </div>
+                                                    </div>
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                        </div><!-- /skill-round-bar-area -->
+
+                                        <div class="skill-bar-area over-hidden pb-50">
+                                            <h3 class="mb-30 mt-15">Business Skills</h3>
+                                            <div class="progess-wrapper">
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Critical Analysis</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 80%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span>80%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Management</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 70%;" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"><span>50%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill mb-20">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Hard Work</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 80%;" aria-valuenow="63" aria-valuemin="0" aria-valuemax="100"><span>60%</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-skill">
+                                                    <div class="bar-title">
+                                                        <h4 class="mb-12">Public Speaking</h4>
+                                                    </div>
+                                                    <div class="progress">
+                                                        <div class="progress-bar theme-color" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><span>70%</span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- skill-bar-area -->
+                                    </div><!-- /col -->
+                                </div><!-- /row -->
+
+                            </div><!-- /skill-area -->
+
+
+                           
+
+                           
+
+                            
+                        </div><!-- /content-wrapper-padding -->
+
+                    </div><!-- /container -->
+                </div><!-- /resume-page -->
+
+
+                <!-- portfolio-page 
+                ================================================== -->
+                <div id="portfolio" class="page-margin-top portfolio-area over-hidden">
+                    <div class="container p-0">
+                        <div class="content-wrapper-padding white-bg border-radius12 position-relative">
+
+                            <div class="row justify-content-between title-margin mb-35">
+                                <div class="col-xl-6 col-lg-5  col-md-4 col-sm-12 col-12 d-flex align-items-center">
+                                    <div class="title">
+                                        <h2 class="position-relative pl-25">Portfolio</h2>
+                                    </div><!-- /title -->
+                                </div><!-- /col -->
+                                <div class="col-xl-6  col-lg-7 col-md-8  col-sm-12 col-12 text-right">
+                                    <div class="title-content text-right">
+                                        <p class="text-left">Elevate your digital presence with custom software solutions: website development, digital marketing, and Android apps crafted for your success..</p>
+                                    </div><!-- /title-content -->
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+
+                            <div class="mixitup-wrapper text-center">
+                                <div class="mixitup-button d-inline-block">
+                                    <button type="button" data-mixitup-control data-filter="all">All</button>
+                                    <button type="button" data-mixitup-control data-filter=".webdesign">Real-Estate Websites</button>
+                                    <button type="button" data-mixitup-control data-filter=".graphic">Industrial Websites</button>
+                                    <button type="button" data-mixitup-control data-filter=".photography">Software Websites</button>
+                                    <!-- <button type="button" data-mixitup-control data-filter=".marketing">Content Creation</button> -->
+                                </div><!-- /mixitup-button -->
+
+                                <div class="mixitup-gallery row my-4 pt-10 pb-10 px-2 justify-content-center">
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix graphic" data-order="1">                                        
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/portfolio-img1.png" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://www.reckonext.com/"><span class="theme-color d-inline-block"><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Industrial</span>
+                                                    <h2 class="text-white">Reckonext Upvc Manufacturer</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix webdesign" data-order="2">
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/portfolio-img2.jpg" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://way2homes.co.in/"><span class="theme-color d-inline-block"  ><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Real-Estate</span>
+                                                    <h2 class="text-white">Way2Homes</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix graphic" data-order="3">
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/portfolio-img3.jpeg" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <span class="theme-color d-inline-block" data-toggle="modal" data-target="#exampleModal-p3"><i class="far fa-external-link-alt"></i>
+                                                    </span>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Industrial</span>
+                                                    <h2 class="text-white">Meghalite - AAC Blocks</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix webdesign " data-order="4">
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/portfolio-img4.jpg" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://vmventures.co.in/"><span class="theme-color d-inline-block"><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Real-Estate</span>
+                                                    <h2 class="text-white">VM-Ventures</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix webdesign " data-order="5">
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/portfolio-img5.png" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://rvhificity.in/"><span class="theme-color d-inline-block"><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Real-Estate</span>
+                                                    <h2 class="text-white">RV-Hifi City</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>
+
+                                   
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix photography" data-order="8">                                        
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/psr-parikrama.png" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://www.psrparikramatechnologies.com/"><span class="theme-color d-inline-block"><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Software</span>
+                                                    <h2 class="text-white">PSR Parikrama</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div>  
+
+                                    <div class="col-xl-4  col-lg-4  col-md-6  col-sm-6 col-12 p-2 mix photography" data-order="8">                                        
+                                        <div class="position-relative">
+                                            <div class="single-portfolio position-relative over-hidden">
+                                                <img class="w-100 border-radius12" src="images/portfolio/competent.png" alt="image">
+                                                <div class="port-icon mb-10 text-center position-absolute transition3 z-index11">
+                                                    <a href="https://www.competentsolutions.in/"><span class="theme-color d-inline-block"><i class="far fa-external-link-alt"></i>
+                                                    </span></a>
+                                                </div><!-- /port-content -->
+                                                <div class="port-over-content text-center position-absolute left-0 pl-30 pr-30 pb-35 pt-40 z-index1">
+                                                    <span class="text-white font-family-CircularStdBold mb-15 d-block text-uppercase">Software</span>
+                                                    <h2 class="text-white">Competent Solutions</h2>
+                                                </div>
+                                            </div><!-- /single-prot -->
+                                        </div>
+                                    </div> 
+
+                                   
+
+                                </div>
+                            </div><!-- /mixitup-wrapper -->
+                        
+                           
+                        </div><!-- /content-wrapper-padding -->
+
+                    </div><!-- /container -->
+                </div><!-- /portfolio-page -->
+
+
+
+
+                <!-- contact-page 
+                ================================================== -->
+                <div id="contact" class="page-margin-top">
+                    <div class="container p-0">
+                        <div class="content-wrapper-padding white-bg content-wrapper-padding white-bg border-radius12  position-relative">
+
+                            <div class="row contact-info-content mt-2">
+                                <div class="col-xl-4  col-lg-4 col-md-4 col-sm- col- pr-sm-0">
+                                    <div class="contact-location text-md-center text-lg-left mb-25 transition-3 d-lg-flex d-flex d-md-block  align-items-center">
+                                        <div class="contact-icon d-inline-block text-center neutral-bg mr-25">
+                                            <span class="theme-color d-inline-block"><i class="fas fa-map-marker-alt"></i></span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text">
+                                            <h4 class="f-700 mb-2">Address</h4>
+                                            <p class="secondary-color mb-0">Dhanalakshmi center, KPHB</p>
+                                        </div>
+                                    </div><!-- /contact-location -->
+                                </div><!-- /col -->
+                                <div class="col-xl-4  col-lg-4  col-md-4 col-sm- col-">
+                                    <div class="contact-phone s-contact text-md-center text-lg-left mb-25 transition-3 d-lg-flex d-flex d-md-block align-items-center">
+                                        <div class="contact-icon d-inline-block text-center neutral-bg mr-25">
+                                            <span class="theme-color d-inline-block"><i class="fas fa-phone-alt"></i></span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text">
+                                            <h4 class="f-700 mb-2">Phone</h4>
+                                            <p class="mb-0">
+                                                <a class="secondary-color2 primary-hover d-block" href="tel:8790221589">+91 8790221589</a>
+                                            </p>
+                                        </div>
+                                    </div><!-- /contact-phone -->
+                                </div><!-- /col -->
+                                <div class="col-xl-4  col-lg-4  col-md-4 col-sm- col-">
+                                    <div class="contact-email s-contact text-md-center text-lg-left mb-25 transition-3 d-lg-flex d-flex d-md-block align-items-center">
+                                        <div class="contact-icon d-inline-block text-center neutral-bg mr-25">
+                                            <span class="theme-color d-inline-block"><i class="fas fa-envelope"></i></span>
+                                        </div><!-- /contact-icon -->
+                                        <div class="contact-text">
+                                            <h4 class="f-700 mb-2">Email</h4>
+                                            <p class="mb-0">
+                                                <a class="secondary-color2 primary-hover d-block" href="emailto:codeccrafter@gmail.com">codeccrafter@gmail.com</a>
+                                            </p>
+                                        </div>
+                                    </div><!-- /contact-email -->
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+
+                            <div class="row justify-content-center">
+                                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12 col-12">
+                                    <div class="contact-form-wrapper text-center mt-25 mb-lg-5 mb-md-4">
+                                        <h2 class="mb-55">Send me a message</h2>
+                                        <form action="process.php" method="POST" id="contact-form">
+                                            <div class="row">
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12">
+                                                    <input
+                                                        class="name w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5" type="text" name="fullname" id="inputName" placeholder="Your Name" required>
+                                                    <!-- /name -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12">
+                                                    <input class="email w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5" type="email" name="email" id="inputEmail" placeholder="Your Email" required>
+                                                    <!-- /email -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pr6 mb-12">
+                                                    <input class="phone w-100 primary-border pl-20 pt-15 pb-15 pr-10 bg-white border-radius5" type="text" name="phone" id="inputPhone" placeholder="Your Phone" required>
+                                                    <!-- /phone -->
+                                                </div><!-- /col -->
+                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 pl6 pr-12 mb-12">
+                                                    <input class="subject w-100 primary-border pl-20 pt-20 pb-15 pr-10 bg-white border-radius5" type="text" name="subject" id="inputSubject" placeholder="Your Subject" required>
+                                                    <!-- /subject -->
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                            <div class="row ">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 pl-12 pr-12 mb-12">
+                                                    <textarea class="massage w-100 primary-border pl-20 pt-20 pr-10 bg-white border-radius5" name="message" id="inputMessage" placeholder="Write your message here" required></textarea>
+                                                </div><!-- /col -->
+                                            </div><!-- /row -->
+                                            <div class="my-btn">
+                                                 <input type="submit" class="btn"  value="Submit">
+                                            </div>
+                                        </form>
+                                    </div><!-- /contact-form -->
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+
+                            <div class="row no-gutters over-hidden neutral-bg mt-30 mb-10">
+                                <div class="col-xl-12  col-lg-12  col-md-12  col-sm-12 col-12">
+                                    <!-- <div class="map-wrapper" id="mapwrapper"> </div> -->
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2464.753397344696!2d78.39936742823505!3d17.49029499376151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x3bcb917669761fdd%3A0xb53de5ee80c62c61!2sdhanalakshmi%20centre%2C%20MIG-188%2C%20Rythubazar%20Rd%2C%20near%20Dhanalaxmi%20Centre%2C%20K%20P%20H%20B%20Phase%201%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!3m2!1d17.4907231!2d78.4001889!4m5!1s0x3bcb917669761fdd%3A0xb53de5ee80c62c61!2sdhanalakshmi%20centre%2C%20MIG-188%2C%20Rythubazar%20Rd%2C%20near%20Dhanalaxmi%20Centre%2C%20K%20P%20H%20B%20Phase%201%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500072!3m2!1d17.4907231!2d78.4001889!5e0!3m2!1sen!2sin!4v1723314965169!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div><!-- /col -->
+                            </div><!-- /row -->
+                        </div><!-- /content-wrapper-padding -->
+                    </div><!-- /container -->  
+                </div><!-- /contact-page -->
+
+            </div><!-- /content -->
+
+            <!--  ====== footer-start
+            ===================================================  -->
+            <footer class="footer-area pb-20 pt-30">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-6  col-lg-5  col-md-12  col-sm-12 col-12">
+                        <div class="copyright-text text-center text-lg-left mb-10">
+                            <p class="mb-0 text-white">All rights reserved © 2024
+                                <a href="#" class="text-white c-theme f-700">Thrinadh</a>
+                            </p>
+                        </div>
+                    </div><!-- /col -->
+                    <div class="col-xl-6  col-lg-7  col-md-12  col-sm-12 col-12">
+                        <ul class="useful-link text-center text-lg-right">
+                            <li class="d-inline-block mb-15">
+                                <a href="https://www.facebook.com/share/SqF5ZPokgGWVM1GF/?mibextid=qi2Omg" class="text-white d-inline-block text-uppercase">Facebook</a>
+                            </li>
+                            <li class="d-inline-block pl-45  mb-15">
+                                <a href="https://www.linkedin.com/in/venkata-thrinadh-097?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-white d-inline-block text-uppercase">Linkedin </a>
+                            </li>
+                            <li class="d-inline-block pl-45 mb-15">
+                                <a href="https://www.instagram.com/_code_crafterss_?igsh=MWVtY2phNnM2a2QwYg==" class="text-white d-inline-block text-uppercase">Instagram</a>
+                            </li>
+                        </ul><!-- social -->
+                    </div><!-- /col -->
+                </div>
+            </footer><!-- /footer area -->
+
+        </div><!-- /container -->
+
+        <!-- back top start-->
+        <div id="scroll" class="scroll-up">
+            <div class="top text-center"><span class="white-bg theme-color d-block"><i class="fa fa-arrow-alt-up"></i></span></div>
+        </div><!-- /scroll-up -->
+
+    </div><!-- /body-wrapper -->
+
+
+
+    <!-- All js here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/typer.js"></script>
+    <script src="js/waypoint.js"></script>
+    <script src="js/counterup-min.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/jquery-appear.js"></script>
+    <script src="js/jquery-knob.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/jquery.easytabs.min.js"></script>
+    <script src="js/jquery.carouFredSel.packed.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/three.js"></script>
+    <script src="js/vanta.waves.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+
+<!-- Mirrored from ethemestudio.com/demo/procv/procv-wave/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 10 Aug 2024 06:35:50 GMT -->
+</html>
